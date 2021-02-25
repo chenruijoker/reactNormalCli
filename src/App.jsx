@@ -1,11 +1,11 @@
-import './App.scss';
-
+import "./App.scss";
+import Hello from "./component/Hello";
 function App() {
-  return (
-    <div className="App">
-      normal react-cli
-    </div>
-  );
+    return (
+        <div>
+            <Hello />
+        </div>
+    );
 }
 
 export default App;
