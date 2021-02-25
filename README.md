@@ -16,17 +16,24 @@
 ## 目录解释
 
 ```
-src
-|--assert    存放静态文件（svg、jpg等）
-|--component  存放前端组件
-|   |--common 存放公共组件地方，存放形式和示例组件一致（考虑到不同的组件均会使用某个公共的小组件）
-|   |--Hello    示例组件
-|       |--index.jsx
-|       |--index.scss
-|--api
-|   |--index.js 可进行api的配置（已经封装好功能，教程看下方开发规范或者示例demo即可）
-|--tool
-|   |--A.js 示例取名文件，若有一些组件共用同个功能，则可抽离出来放在此处
+|--config   webpack底层脚手架构建
+|--public   顶层模板
+|   |--index.html
+|--script
+|   |--build.js 打包脚本
+|   |--start.js 运行脚本
+|--src
+|   |--assert    存放静态文件（svg、jpg等）
+|   |--component  存放前端组件
+|   |   |--common 存放公共组件地方，存放形式和示例组件一致（考虑到不同的组件均会使用某个公共的小组件）
+|   |   |--Hello    示例组件
+|   |      |--index.jsx
+|   |      |--index.scss
+|   |--api
+|   |   |--index.js 可进行api的配置（已经封装好功能，教程看下方开发规范或者示例demo即可）
+|   |--tool
+|       |--A.js 示例取名文件，若有一些组件共用同个功能，则可抽离出来放在此处
+|--package.json
 ```
 
 ## 开发规范注意点

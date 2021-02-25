@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "QIJIFALLBACK";
+    src: url(../../assert/test.ttf) format("truetype");
+}
 .page {
     display: flex;
     height: 100vh;
@@ -7,6 +11,10 @@
         text-align: center;
         .img {
             width: 250px;
+        }
+        .text {
+            font-family: "QIJIFALLBACK";
+            font-size: 30px;
         }
     }
 }

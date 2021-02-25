@@ -7,7 +7,7 @@ function Hello() {
         <div className="page">
             <div className="hello">
                 <img src={Img} className="img" />
-                <div className="text">欢迎使用</div>
+                <div className="text">欢迎使用脚手架</div>
             </div>
         </div>
     );
