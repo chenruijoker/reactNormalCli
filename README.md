@@ -76,6 +76,8 @@ const { useEffect, useMemo } = React;
 ```
 
 -   包含 router 的脚手架默认使用 HashRouter,可自行在代码层进行变更
+    需要严格注意的是本脚手架是基于 react-router-dom 5.x 版本开发，请自行学习相关知识
+    本脚手架遵循路由即组件的概念
 
 ```javascript
 import React from "react";
