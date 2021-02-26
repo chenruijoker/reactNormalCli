@@ -7,7 +7,7 @@ function Selector() {
     };
     return (
         <div>
-            <div onClick={leap}>关于路由</div>
+            <div onClick={leap}>关于路由教程</div>
         </div>
     );
 }
