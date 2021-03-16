@@ -26,9 +26,13 @@
 |   |--asserts    存放静态文件（svg、jpg等）
 |   |--component  存放前端组件
 |   |   |--common 存放公共组件地方，存放形式和示例组件一致（考虑到不同的组件均会使用某个公共的小组件）
-|   |   |--Hello    示例组件
-|   |      |--index.jsx
-|   |      |--index.scss
+|   |       |--Hello    示例组件
+|   |           |--index.jsx
+|   |           |--index.scss
+|   |--pages   存放页面
+|   |   |--A    页面A(页面从component拿组件进行拼接)
+|   |   |   |--index.jsx
+|   |   |   |--index.scss
 |   |--api
 |   |   |--index.js 可进行api的配置（已经封装好功能，教程看下方开发规范或者示例demo即可）
 |   |--tool

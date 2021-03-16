@@ -1,8 +1,8 @@
 import "./App.scss";
 import { Route, Switch, Redirect } from "react-router-dom";
-import Img from "./assert/example.jpg";
-import Selector from "./component/Selector";
-import Tutorial from "./component/Tutorial";
+import Img from "./asserts/example.jpg";
+import Selector from "./pages/Selector";
+import Tutorial from "./pages/Tutorial";
 
 function App() {
     return (
