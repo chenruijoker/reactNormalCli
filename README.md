@@ -23,7 +23,7 @@
 |   |--build.js 打包脚本
 |   |--start.js 运行脚本
 |--src
-|   |--assert    存放静态文件（svg、jpg等）
+|   |--asserts    存放静态文件（svg、jpg等）
 |   |--component  存放前端组件
 |   |   |--common 存放公共组件地方，存放形式和示例组件一致（考虑到不同的组件均会使用某个公共的小组件）
 |   |   |--Hello    示例组件
