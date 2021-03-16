@@ -30,7 +30,7 @@
 |   |           |--index.jsx
 |   |           |--index.scss
 |   |--pages   存放页面
-|   |   |--A    页面A(页面从component拿组件进行拼接)
+|   |   |--A    页面A(页面从component拿组件进行拼接，再次强调，路由即组件是本脚手架的思维模型)
 |   |   |   |--index.jsx
 |   |   |   |--index.scss
 |   |--api
