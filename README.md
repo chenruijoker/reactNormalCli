@@ -13,6 +13,7 @@
 -   yarn start 自动运行
 -   yarn build 生成成果物
 -   如对打包有特殊需求，可以在config文件夹下的outputConfig.js进行配置
+-   可以在outputConfig.js配置内容，测试打开浏览器的时候可以自由调整localhost还是本机ip
 
 ## 目录解释
 
