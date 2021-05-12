@@ -12,6 +12,7 @@
 -   yarn install 安装 npm 包
 -   yarn start 自动运行
 -   yarn build 生成成果物
+-   如对打包有特殊需求，可以在config文件夹下的outputConfig.js进行配置
 
 ## 目录解释
 
