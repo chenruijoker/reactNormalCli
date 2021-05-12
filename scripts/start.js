@@ -139,7 +139,6 @@ checkBrowsers(paths.appPath, isInteractive)
 			}
 
 			console.log(chalk.cyan("正在启动本地服务（development）...\n"));
-			console.log(urls, port);
 			const theUrl = runLanHost
 				? `http://${urls.lanUrlForConfig}:${port}`
 				: urls.localUrlForBrowser;
