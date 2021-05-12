@@ -591,7 +591,13 @@ module.exports = function (webpackEnv) {
 			// Generates an `index.html` file with the <script> injected.
 			new HtmlWebpackPlugin(
 				Object.assign(
-					{ filename: `${indexHTMLName || "index.html"}` },
+					{
+						filename: `${
+							shouldUseSourceMap
+								? "index.html"
+								: indexHTMLName || "index.html"
+						}`,
+					},
 					{
 						inject: true,
 						template: paths.appHtml,
